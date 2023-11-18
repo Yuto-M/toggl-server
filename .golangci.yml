@@ -1,6 +1,6 @@
 linters-settings:
   gci:
-    local-prefixes: github.com/evrone/go-clean-template
+    local-prefixes: github.com/Yuto-M/toggl-server
   dupl:
     threshold: 100
   errorlint:
@@ -59,7 +59,6 @@ linters:
     - bodyclose
     - cyclop
     - deadcode
-    - depguard
     - dogsled
     - dupl
     - durationcheck

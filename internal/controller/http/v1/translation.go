@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/evrone/go-clean-template/internal/entity"
-	"github.com/evrone/go-clean-template/internal/usecase"
-	"github.com/evrone/go-clean-template/pkg/logger"
+	"github.com/Yuto-M/toggl-server/internal/entity"
+	"github.com/Yuto-M/toggl-server/internal/usecase"
+	"github.com/Yuto-M/toggl-server/pkg/logger"
 )
 
 type translationRoutes struct {
