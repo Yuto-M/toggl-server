@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Yuto-M/go-clean-template/internal/entity"
-	"github.com/Yuto-M/go-clean-template/pkg/postgres"
+	"github.com/Yuto-M/toggl-server/internal/entity"
+	"github.com/Yuto-M/toggl-server/pkg/postgres"
 )
 
 const _defaultEntityCap = 64

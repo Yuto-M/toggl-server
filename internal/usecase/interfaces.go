@@ -4,7 +4,7 @@ package usecase
 import (
 	"context"
 
-	"github.com/Yuto-M/go-clean-template/internal/entity"
+	"github.com/Yuto-M/toggl-server/internal/entity"
 )
 
 //go:generate mockgen -source=interfaces.go -destination=./mocks_test.go -package=usecase_test

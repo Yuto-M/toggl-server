@@ -1,6 +1,6 @@
 ## Overview
 This template is very simple clean architecture template for Go.
-It is based on https://github.com/Yuto-M/go-clean-template.
+It is based on https://github.com/evrone/go-clean-template.
 
 ## Content
 - [Overview](#overview)

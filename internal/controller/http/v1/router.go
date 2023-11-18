@@ -8,9 +8,9 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	// Swagger docs.
-	_ "github.com/Yuto-M/go-clean-template/docs"
-	"github.com/Yuto-M/go-clean-template/internal/usecase"
-	"github.com/Yuto-M/go-clean-template/pkg/logger"
+	_ "github.com/Yuto-M/toggl-server/docs"
+	"github.com/Yuto-M/toggl-server/internal/usecase"
+	"github.com/Yuto-M/toggl-server/pkg/logger"
 )
 
 // NewRouter -.

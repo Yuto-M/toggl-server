@@ -1,4 +1,4 @@
-module github.com/Yuto-M/go-clean-template
+module github.com/Yuto-M/toggl-server
 
 go 1.17
 

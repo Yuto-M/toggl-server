@@ -8,7 +8,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	entity "github.com/Yuto-M/go-clean-template/internal/entity"
+	entity "github.com/Yuto-M/toggl-server/internal/entity"
 	gomock "github.com/golang/mock/gomock"
 )
 

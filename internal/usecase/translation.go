@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Yuto-M/go-clean-template/internal/entity"
+	"github.com/Yuto-M/toggl-server/internal/entity"
 )
 
 // TranslationUseCase -.

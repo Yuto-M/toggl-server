@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/Yuto-M/go-clean-template/config"
-	"github.com/Yuto-M/go-clean-template/internal/app"
+	"github.com/Yuto-M/toggl-server/config"
+	"github.com/Yuto-M/toggl-server/internal/app"
 )
 
 func main() {
