@@ -10,9 +10,7 @@ import (
 )
 
 const (
-	// Attempts connection
-	host     = "app:8080"
-	attempts = 20
+	host = "app:8080"
 
 	// HTTP REST
 	basePath = "http://" + host + "/v1"
