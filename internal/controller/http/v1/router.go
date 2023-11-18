@@ -8,9 +8,9 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	// Swagger docs.
-	_ "github.com/evrone/go-clean-template/docs"
-	"github.com/evrone/go-clean-template/internal/usecase"
-	"github.com/evrone/go-clean-template/pkg/logger"
+	_ "github.com/Yuto-M/go-clean-template/docs"
+	"github.com/Yuto-M/go-clean-template/internal/usecase"
+	"github.com/Yuto-M/go-clean-template/pkg/logger"
 )
 
 // NewRouter -.

@@ -1,4 +1,4 @@
-module github.com/evrone/go-clean-template
+module github.com/Yuto-M/go-clean-template
 
 go 1.17
 
