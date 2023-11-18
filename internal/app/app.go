@@ -11,9 +11,9 @@ import (
 
 	"github.com/Yuto-M/toggl-server/config"
 	v1 "github.com/Yuto-M/toggl-server/internal/controller/http/v1"
+	"github.com/Yuto-M/toggl-server/internal/repo"
 	"github.com/Yuto-M/toggl-server/internal/usecase"
-	"github.com/Yuto-M/toggl-server/internal/usecase/repo"
-	"github.com/Yuto-M/toggl-server/internal/usecase/webapi"
+	"github.com/Yuto-M/toggl-server/internal/webapi"
 	"github.com/Yuto-M/toggl-server/pkg/httpserver"
 	"github.com/Yuto-M/toggl-server/pkg/logger"
 	"github.com/Yuto-M/toggl-server/pkg/postgres"
