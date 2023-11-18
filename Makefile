@@ -25,7 +25,7 @@ compose-down: ### Down docker-compose
 .PHONY: compose-down
 
 swag-v1: ### swag init
-	~/go/bin/swag init -g internal/controller/http/v1/router.go
+	${LOCAL_BIN}/swag init -g internal/controller/http/v1/router.go
 .PHONY: swag-v1
 
 run: swag-v1 ### swag run
@@ -58,17 +58,18 @@ integration-test: ### run integration-test
 .PHONY: integration-test
 
 mock: ### run mockgen
-	~/go/bin/mockgen -source ./internal/usecase/interfaces.go -package usecase_test > ./internal/usecase/mocks_test.go
+	${LOCAL_BIN}/mockgen -source ./internal/usecase/interfaces.go -package usecase_test > ./internal/usecase/mocks_test.go
 .PHONY: mock
 
 migrate-create:  ### create new migration
-	migrate create -ext sql -dir migrations 'migrate_name'
+	${LOCAL_BIN}/migrate create -ext sql -dir migrations 'migrate_name'
 .PHONY: migrate-create
 
 migrate-up: ### migration up
-	migrate -path migrations -database '$(PG_URL)?sslmode=disable' up
+	${LOCAL_BIN}/migrate -path migrations -database '$(PG_URL)?sslmode=disable' up
 .PHONY: migrate-up
 
 bin-deps:
 	GOBIN=$(LOCAL_BIN) go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
 	GOBIN=$(LOCAL_BIN) go install github.com/golang/mock/mockgen@latest
+	GOBIN=$(LOCAL_BIN) go install github.com/swaggo/swag/cmd/swag@v1.7.8
