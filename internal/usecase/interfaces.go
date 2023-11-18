@@ -27,13 +27,3 @@ type (
 		Translate(entity.Translation) (entity.Translation, error)
 	}
 )
-
-/**
-	Note: 将来的にはusecaseの数が増えて、Allを作るかもしれない。interfaceじゃないけど、interface.goに書いてしまっても良いかも。
-	type All struct {
-		Translation
-	}
-	func NewAll(t Translation) *All {
-		return &All{t}
-	}
-**/
